@@ -138,21 +138,39 @@ body {
 }
 header {
   font-size: 2em;
-  color: #FF0000;
+  color: green;
   background: lightgray;
 }
 header h1 {
-  font-size: 1.5em;
-  color: #FF0000;
+  font-size: 1.9em;
+  color: green;
+}
+.middle-content {
+  display: flex;
 }
 .middle-content h1 {
-  font-size: 1.8em;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+.middle-content p {
+  display: block;
+}
+.middle-content #left {
+  width: 70%;
+  padding: 20px;
+}
+.middle-content #right {
+  width: 25%;
 }
 .nav {
   font-size: 1.5em;
   display: block;
   text-align: center;
   padding: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
 }
 .future-me {
   width: 600px;
@@ -165,8 +183,7 @@ header h1 {
 table,
 th,
 td {
-  border: 1px solid black;
-  width: 100%;
+  border: 0.5px solid lightgray;
 }
 table table,
 th table,
@@ -182,9 +199,19 @@ th td,
 td td {
   padding: 15px;
 }
-.end {
+.end .exp-caption {
+  text-align: center;
+}
+.end table {
   width: 100%;
+}
+.end table table tr:nth-child(odd) {
+  background-color: #ccc;
 }
 footer {
   background: gray;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
 }

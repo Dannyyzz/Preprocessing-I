@@ -61,21 +61,44 @@ html, body {
 	margin: 0 auto;
 }
 
-@variable-red: #FF0000;
+@favcolor: green;
 
 header {
 	font-size: 2em;
-	color: @variable-red;
+	color: @favcolor;
 	background: lightgray;
 
 	h1 {
-	font-size: 1.5em;
-	color: @variable-red;	
+	font-size: 1.9em;
+	color: @favcolor;	
+	}
+
+	button {
+
 	}
 }
 
-.middle-content h1{
-	font-size: 1.8em;
+.middle-content {
+	display: flex;
+
+	h1 {
+		font-size: 2em;
+		padding-bottom: 10px;
+	}
+	
+	p {
+		display: block;
+	}
+
+	#left {
+		width: 70%;
+		padding: 20px;
+	}
+	
+
+	#right {
+		width: 25%;
+	}
 }
 
 .nav {
@@ -83,6 +106,11 @@ header {
 	display: block;
 	text-align: center;
 	padding: 20px;
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
 
 }
 
@@ -98,8 +126,8 @@ header {
 }
 
 table, th, td {
-	border: 1px solid black;
-	width: 100%;
+	border: .5px solid lightgray;
+
 	
 
 	table {
@@ -113,9 +141,23 @@ table, th, td {
 }
 
 .end {
-	width: 100%;
+	.exp-caption{
+		text-align: center;
+	}
+
+	table {
+		width: 100%;
+
+		table tr:nth-child(odd) {
+			background-color: #ccc;
+		  }
+	}
 }
 
 footer {
 	background: gray;
+	height: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 18px;
 }
