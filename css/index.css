@@ -166,6 +166,21 @@ table,
 th,
 td {
   border: 1px solid black;
+  width: 100%;
+}
+table table,
+th table,
+td table {
+  border-spacing: 5px;
+  table-layout: fixed;
+}
+table th,
+th th,
+td th,
+table td,
+th td,
+td td {
+  padding: 15px;
 }
 .end {
   width: 100%;
