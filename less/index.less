@@ -59,6 +59,7 @@ html, body {
 	height: 100%;
 	width: 1000px;
 	margin: 0 auto;
+	font-family: 'Courier New', Courier, monospace
 }
 
 @favcolor: green;
@@ -72,18 +73,15 @@ header {
 	font-size: 1.9em;
 	color: @favcolor;	
 	}
-
-	button {
-
-	}
 }
 
 .middle-content {
 	display: flex;
 
 	h1 {
-		font-size: 2em;
+		font-size: 1.3em;
 		padding-bottom: 10px;
+		font-weight: 800;
 	}
 	
 	p {
@@ -91,13 +89,17 @@ header {
 	}
 
 	#left {
-		width: 70%;
+		width: 50%;
 		padding: 20px;
 	}
 	
 
 	#right {
-		width: 25%;
+		width: 50%;
+
+		table {
+			width: 100%;
+		}
 	}
 }
 
@@ -110,6 +112,7 @@ header {
 	a {
 		text-decoration: none;
 		color: black;
+		padding: 0 15px;
 	}
 
 }

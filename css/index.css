@@ -135,6 +135,7 @@ body {
   height: 100%;
   width: 1000px;
   margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
 }
 header {
   font-size: 2em;
@@ -149,18 +150,22 @@ header h1 {
   display: flex;
 }
 .middle-content h1 {
-  font-size: 2em;
+  font-size: 1.3em;
   padding-bottom: 10px;
+  font-weight: 800;
 }
 .middle-content p {
   display: block;
 }
 .middle-content #left {
-  width: 70%;
+  width: 50%;
   padding: 20px;
 }
 .middle-content #right {
-  width: 25%;
+  width: 50%;
+}
+.middle-content #right table {
+  width: 100%;
 }
 .nav {
   font-size: 1.5em;
@@ -171,6 +176,7 @@ header h1 {
 .nav a {
   text-decoration: none;
   color: black;
+  padding: 0 15px;
 }
 .future-me {
   width: 600px;
