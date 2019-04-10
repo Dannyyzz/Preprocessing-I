@@ -53,28 +53,58 @@ table {
     box-sizing: border-box;
 }
 
+
+
 html, body {
 	height: 100%;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 @variable-red: #FF0000;
 
-header h1 {
-	font-size: 50px;
+header {
+	font-size: 2em;
 	color: @variable-red;
+	background: lightgray;
+
+	h1 {
+	font-size: 1.5em;
+	color: @variable-red;	
+	}
+}
+
+.middle-content h1{
+	font-size: 1.8em;
 }
 
 .nav {
 	font-size: 1.5em;
+	display: block;
+	text-align: center;
+	padding: 20px;
 
 }
 
 .future-me {
-	width: 50%;
-	height: 50%;
+	width: 600px;
+	height: 366px;
+	
 }
 
 .jackofalltrades {
 	width: 80px;
 	height: 80px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+.end {
+	width: 100%;
+}
+
+footer {
+	background: gray;
 }

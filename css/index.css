@@ -133,19 +133,43 @@ table {
 html,
 body {
   height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+}
+header {
+  font-size: 2em;
+  color: #FF0000;
+  background: lightgray;
 }
 header h1 {
-  font-size: 50px;
+  font-size: 1.5em;
   color: #FF0000;
+}
+.middle-content h1 {
+  font-size: 1.8em;
 }
 .nav {
   font-size: 1.5em;
+  display: block;
+  text-align: center;
+  padding: 20px;
 }
 .future-me {
-  width: 50%;
-  height: 50%;
+  width: 600px;
+  height: 366px;
 }
 .jackofalltrades {
   width: 80px;
   height: 80px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.end {
+  width: 100%;
+}
+footer {
+  background: gray;
 }
